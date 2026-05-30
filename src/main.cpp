@@ -47,3 +47,4 @@ class $modify(MenuLayer) {
         return true;
     }
 };
+
