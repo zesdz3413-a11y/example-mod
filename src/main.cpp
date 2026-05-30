@@ -10,7 +10,7 @@ class $modify(MenuLayer) {
     bool init() {
         if (!MenuLayer::init()) return false;
 
-        // 1. An hinh nen mac dinh cua game
+        // 1. An hinh nen mac dinh cua gd
         if (auto background = this->getChildByID("main-menu-bg")) {
             background->setVisible(false);
         } else if (this->getChildrenCount() > 0) {
